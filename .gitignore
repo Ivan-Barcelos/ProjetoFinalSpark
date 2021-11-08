@@ -51,6 +51,8 @@ target/
 # pyenv
 .python-version
 
+# jupyter checkpoint
+*-checkpoint.ipynb
 
 # virtualenv
 .venv/
