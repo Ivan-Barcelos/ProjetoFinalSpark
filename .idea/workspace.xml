@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="271cbb4f-45d2-414e-ac7d-e083cace9e84" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/source" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/covid_br_data/HIST_PAINEL_COVIDBR_2020_Parte1_06jul2021.csv" beforeDir="false" afterPath="$PROJECT_DIR$/covid_br_data/HIST_PAINEL_COVIDBR_2020_Parte1_06jul2021.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/covid_br_data/HIST_PAINEL_COVIDBR_2020_Parte2_06jul2021.csv" beforeDir="false" afterPath="$PROJECT_DIR$/covid_br_data/HIST_PAINEL_COVIDBR_2020_Parte2_06jul2021.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/covid_br_data/HIST_PAINEL_COVIDBR_2021_Parte1_06jul2021.csv" beforeDir="false" afterPath="$PROJECT_DIR$/covid_br_data/HIST_PAINEL_COVIDBR_2021_Parte1_06jul2021.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/covid_br_data/HIST_PAINEL_COVIDBR_2021_Parte2_06jul2021.csv" beforeDir="false" afterPath="$PROJECT_DIR$/covid_br_data/HIST_PAINEL_COVIDBR_2021_Parte2_06jul2021.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/scripts/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/scripts/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/scripts/etl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-0/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-0/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-1/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-1/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-10/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-10/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-11/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-11/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-12/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-12/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-13/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-13/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-14/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-14/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-15/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-15/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-16/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-16/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-17/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-17/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-18/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-18/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-19/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-19/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-2/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-2/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-20/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-20/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-21/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-21/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-22/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-22/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-23/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-23/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-24/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-24/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-25/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-25/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-26/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-26/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-27/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-27/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-28/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-28/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-29/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-29/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-3/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-3/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-30/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-30/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-31/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-31/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-32/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-32/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-33/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-33/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-34/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-34/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-35/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-35/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-36/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-36/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-37/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-37/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-38/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-38/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-39/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-39/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-4/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-4/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-40/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-40/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-41/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-41/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-42/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-42/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-43/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-43/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-44/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-44/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-45/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-45/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-46/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-46/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-47/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-47/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-48/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-48/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-49/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-49/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-5/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-5/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-6/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-6/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-7/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-7/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-8/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-8/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-9/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/__consumer_offsets-9/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/aula-0/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/aula-0/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/log-start-offset-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/log-start-offset-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/msg-0/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/msg-0/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/kafka/recovery-point-offset-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/kafka/recovery-point-offset-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/mysql/data/auto.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/mysql/data/auto.cnf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/mysql/data/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/mysql/data/ib_buffer_pool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/mysql/data/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/mysql/data/ib_logfile0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/mysql/data/ib_logfile1" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/mysql/data/ib_logfile1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/mysql/data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/mysql/data/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/docker-compose-parcial.yml" beforeDir="false" afterPath="$PROJECT_DIR$/source/docker-compose-parcial.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="20YfEE44FYXPPlYOJkJes1vst5V" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projeto" />
+      <recent name="C:\Users\ivanb\OneDrive\Área de Trabalho\Projeto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.hdfs_helper (1)">
+    <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Projeto" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project/scripts/__main__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="etl (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Projeto" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/etl.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="etl" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Projeto" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project/scripts/etl.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hdfs_helper (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Projeto" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/hdfs_helper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hdfs_helper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Projeto" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Projeto\scripts\hdfs_helper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.__main__" />
+      <item itemvalue="Python.etl (1)" />
+      <item itemvalue="Python.etl" />
+      <item itemvalue="Python.hdfs_helper (1)" />
+      <item itemvalue="Python.hdfs_helper" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.hdfs_helper (1)" />
+        <item itemvalue="Python.hdfs_helper" />
+        <item itemvalue="Python.etl (1)" />
+        <item itemvalue="Python.etl" />
+        <item itemvalue="Python.__main__" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="271cbb4f-45d2-414e-ac7d-e083cace9e84" name="Changes" comment="" />
+      <created>1636226327697</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636226327697</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
