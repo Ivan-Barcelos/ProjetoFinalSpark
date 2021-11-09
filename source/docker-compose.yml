@@ -80,7 +80,7 @@ services:
     container_name: hive-metastore-postgresql
     hostname: hive_metastore_postgresql
     volumes:
-      - ./data/postgresql:/var/lib/postgresql/data
+      - ./data/postgresql:/var/lib/postgresql/
     depends_on:
       - datanode
     deploy:
@@ -135,9 +135,9 @@ services:
       - 4041:4041
       - 4042:4042
       - 4043:4043
-    volumes:
-       - ./data/notebooks:/mnt/notebooks/
-       - ../mnt/c/Projeto/covid_br_data:/mnt/notebooks/covid_br_data
+    volumes:       
+       - ../covid_br_data:/mnt/notebooks/covid_br_data/
+       - ../final_project:/mnt/notebooks/final_project/    
     environment:
        SPARK_MASTER: local[*]
        JUPYTER_PORT: 8889
