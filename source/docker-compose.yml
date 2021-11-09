@@ -122,23 +122,6 @@ services:
         limits:
           memory: 500m
 
-  hbase-master:
-    image: fjardim/hbase-master
-    container_name: hbase-master
-    hostname: hbase-master
-    env_file:
-      - ./data/hbase/hbase-standalone.env
-    environment:
-      SERVICE_PRECONDITION: "namenode:50070 datanode:50075 zookeeper:2181"
-    ports:
-      - 16010:16010
-    depends_on:
-      - namenode
-    deploy:
-      resources:
-        limits:
-          memory: 500m
-
   spark:
     image: fjardim/jupyter-spark
     hostname: spark
@@ -154,6 +137,7 @@ services:
       - 4043:4043
     volumes:
        - ./data/notebooks:/mnt/notebooks/
+       - ../mnt/c/Projeto/covid_br_data:/mnt/notebooks/covid_br_data
     environment:
        SPARK_MASTER: local[*]
        JUPYTER_PORT: 8889
