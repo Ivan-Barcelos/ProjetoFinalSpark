@@ -137,7 +137,8 @@ services:
       - 4043:4043
     volumes:       
        - ../covid_br_data:/mnt/notebooks/covid_br_data/
-       - ../final_project:/mnt/notebooks/final_project/    
+       - ../final_project:/mnt/notebooks/final_project/
+       - ../jars:/mnt/notebooks/jars/       
     environment:
        SPARK_MASTER: local[*]
        JUPYTER_PORT: 8889

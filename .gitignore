@@ -67,3 +67,4 @@ ENV/
 *.pem
 #Visual Studio Code
 .vscode
+.idea/
