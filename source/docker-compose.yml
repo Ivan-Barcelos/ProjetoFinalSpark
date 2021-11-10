@@ -145,3 +145,86 @@ services:
       resources:
         limits:
           memory: 1g
+
+  kafka:
+    image: fjardim/kafka
+    container_name: kafka
+    hostname: kafka
+    ports:
+      - "9092:9092"
+    volumes:
+      - ./data/kafka:/kafka/kafka-logs-kafka
+    depends_on:
+      - zookeeper
+    environment:
+      KAFKA_ADVERTISED_HOST_NAME: kafka
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+    deploy:
+      resources:
+        limits:
+          memory: 500m
+
+  kafkamanager:
+    image: fjardim/kafkamanager
+    container_name: kafkamanager
+    hostname: kafkamanager
+    environment:
+      ZK_HOSTS: zookeeper:2181
+    ports:
+      - 9000:9000
+    depends_on:
+      - kafka
+    deploy:
+      resources:
+        limits:
+          memory: 200m
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.9.2
+    ports:
+      - "9200:9200"
+    volumes: 
+      - es-data:/usr/share/elasticsearch/data
+      - ./settings/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml:ro
+      - ./data:/data
+    environment:
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"  
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1  
+    networks: 
+      - elastic
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.9.2
+    volumes: 
+      - ./settings/kibana.yml:/usr/share/kibana/config/kibana.yml:ro   
+    ports:
+      - "5601:5601"
+    depends_on:
+      - elasticsearch       
+    networks: 
+      - elastic
+  
+  logstash:
+    image: docker.elastic.co/logstash/logstash:7.9.2
+    volumes:
+      - ./pipeline/logstash.conf:/usr/share/logstash/pipeline/logstash.conf:ro
+      - ./settings/logstash.yml:/usr/share/logstash/config/logstash.yml:ro
+    ports:
+      - "9600:9600"
+      - "5044:5044"
+    depends_on: 
+      - elasticsearch  
+    networks:
+      - elastic        
+
+networks:
+  elastic:
+    driver: bridge
+
+volumes:
+  es-data:
+    driver: local
+
