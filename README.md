@@ -13,6 +13,8 @@
 
 - The folder "final_project" contains a jupyter file where all the code was written.
 
+- All the results as shown at the jupyter file.
+
 # FLOW
 
 1.  Clone the repo.
