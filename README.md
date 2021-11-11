@@ -15,11 +15,14 @@
 
 - All the results as shown at the jupyter file.
 
+# Requeriments
+
+1.  Docker and Docker-compose.
+  
+
 # FLOW
 
-1.  Clone the repo.
-2.  Set up a linux.
-3.  Set up docker and docker-compose.
-4.  Set up the cluster with docker-compose.
-5.  Launch the jupyter notebook on localhost:8889.
-6.  Open file spark_final_project at final_project folder.
+1.  Change to the source directory.
+2.  docker-compose up -d.
+3.  Launch the jupyter notebook on localhost:8889.
+4.  Open file spark_final_project.ipynb at final_project folder.
